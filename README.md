@@ -1,2 +1,2 @@
-# metarcard
+# MetaRcard
 Metabolic Reconstruction Card Portfolio
