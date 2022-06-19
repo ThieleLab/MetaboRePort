@@ -5,7 +5,7 @@
 .error {color: #FF0000;}
 </style>
 </head>
-<body>  
+<body >  
 
 
 <!-- PHP code to read folder content-->
@@ -46,10 +46,10 @@ $reports = read_reportDirectory($formDir);
 write_selectionForm($formDir);
 
 function write_selectionForm($dir){
-    echo "<h1> <br>";
-    echo "   Select a MetaboReport:";
+    echo "<h1 ></p> <br>";
+    echo "  Select a MetaboReport:";
   
-     echo  " </h1>";
+     echo  "</h1>";
 }
 ?>
 
@@ -57,7 +57,7 @@ function write_selectionForm($dir){
   <!-- FORM for autocompletion with JS-->
     <!--Make sure the form has the autocomplete function switched off:-->
 <form autocomplete="off" action="bin/action.php"  method="post">
-    <div class="autocomplete" style="width:1000px;">
+    <div class="autocomplete" style="width:1000px;color: #3c85c9">
       <input class="form-control form-control-lg" id="myInput" type="text" name="organism" placeholder="Abiotrophia defectiva ATCC 49176">
     </div>
     <input type="submit">
